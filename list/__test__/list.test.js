@@ -5,7 +5,7 @@ const List = require('../list.js');
 // const List = require('../list-constructor.js');
 
 describe('List Data Structure', () => {
-
+  //push
   it('starts with a length of -1 and an empty data set', () => {
     let stuff = new List();
     expect(stuff.length).toEqual(0);
@@ -19,5 +19,11 @@ describe('List Data Structure', () => {
     expect(stuff.length).toEqual(2);
     expect(stuff.data[1]).toEqual('b');
   });
-
+  
+  //pop
+  it('works as expected', () => {
+    let stuff = new List();
+    stuff.pop('a');
+    expect(stuff.data[0]).toEqual();
+  });
 });

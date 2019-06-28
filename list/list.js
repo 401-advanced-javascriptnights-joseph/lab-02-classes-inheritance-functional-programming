@@ -28,6 +28,19 @@ class List {
     return returnValue;
   }
 
+  shift() {
+    // Remove an item from the start of the list and return it's value
+    let returnValue = this.data[this.length];
+    delete this.data[this.length];
+    --this.length;
+    return returnValue;
+  }
+
+  unshift() {
+    // Remove an item from the start of the list and return it's value
+
+  }
+
 }
 
 module.exports = List;
