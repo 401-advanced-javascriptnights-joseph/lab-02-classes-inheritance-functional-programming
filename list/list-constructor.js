@@ -26,9 +26,9 @@ List.prototype.pop = function() {
 
 List.prototype.shift = function() {
   // Remove an item from the start of the list and return it's value
-  let returnValue = this.data[this.length[0]];
+  let returnValue = this.data[this.length];
   delete this.data[this.length];
-  this.length--;
+  --this.length;
   return returnValue;
 };
 
@@ -51,7 +51,7 @@ List.prototype.filter = function() {
 };
 
 List.prototype.reduce = function() {
-  //Method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+  //Method executes a reducer function (that you provide) on each element of the array, resulting in a single output value
 };
 
 module.exports = List;

@@ -41,6 +41,25 @@ class List {
 
   }
 
+  forEach() {
+    // Remove an item from the start of the list and return it's value
+
+  }
+
+  map() {
+    // Remove an item from the start of the list and return it's value
+
+  }
+  
+  filter() {
+    // Remove an item from the start of the list and return it's value
+
+  }
+  
+  reduce() {
+    // Remove an item from the start of the list and return it's value
+
+  }
 }
 
 module.exports = List;
